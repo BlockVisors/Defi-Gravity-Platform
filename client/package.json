@@ -1,5 +1,5 @@
 {
-  "name": "defi gravity dapp",
+  "name": "defi-gravity-dapp",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -34,7 +34,6 @@
     "typescript": "3.4.5"
   },
   "homepage": "http://blockvisors.github.io/DeFi-Gravity-dApp",
-    
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
