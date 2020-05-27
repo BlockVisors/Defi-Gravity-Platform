@@ -140,7 +140,8 @@ class DemoFooter extends React.Component {
                   </UncontrolledTooltip>
                 </div>
               </Col>
-            </Row>
+            </Row> 
+  
           </Container>
         </footer>
       </>

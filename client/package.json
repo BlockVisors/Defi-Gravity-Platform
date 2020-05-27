@@ -33,7 +33,7 @@
     "@types/react": "16.8.17",
     "typescript": "3.4.5"
   },
-  "homepage": "http://blockvisors.github.io/DeFi-Gravity-dApp",
+  "homepage": "https://https://app.defigravity.org/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

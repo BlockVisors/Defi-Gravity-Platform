@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DeFi-Gravity-dApp/precache-manifest.9c04b02e529a548ceac06fb4051c09da.js"
+  "/DeFi-Gravity-dApp/precache-manifest.67bc56b8f20573ecbab293e9d9d670b4.js"
 );
 
 self.addEventListener('message', (event) => {

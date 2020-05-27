@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/nomiclabs/buidler-hackathon-boilerplate/issues"
   },
-  "homepage": "https://github.com/nomiclabs/buidler-hackathon-boilerplate#readme",
+  "homepage": "https://app.defigravity.org/",
   "devDependencies": {
     "@nomiclabs/buidler": "^1.2.0",
     "@nomiclabs/buidler-ethers": "^1.2.0",

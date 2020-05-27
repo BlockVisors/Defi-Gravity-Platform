@@ -73,7 +73,7 @@ class BVNavbar extends React.Component {
             <div className="navbar-translate">
               <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <img
-              src={require("assets/img/DefiLogoGray.png")}
+              src={require("assets/img/DefiGravityLogoGreen.png")}
               width="184"
               height="56"
               className="d-inline-block align-middle"

@@ -31,17 +31,25 @@ import {
   Container,
   Row,
   Col
+
 } from "reactstrap";
 
 // core components
 import ColorNavbar from "components/Navbars/ColorNavbar.jsx";
 import BVNavbar from "components/Navbars/BVNavbar.jsx";
+import DeFiChallenges from "../SectionsSections/DefiChallenges.jsx";
+//import DeFiHeader from "../SectionsSections/DeFiHeader.jsx";
+
 
 import DemoFooter from "components/Footers/DemoFooter.jsx";
+import ThinFooter from "components/Footers/ThinFooter.jsx";
 
-import { chartExample1 } from "variables/charts.js";
+
+//import { chartExample1 } from "variables/charts.js";
 
 class LandingPage extends React.Component {
+
+
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -88,11 +96,11 @@ class LandingPage extends React.Component {
               src={require("assets/img/cercuri.png")}
             />
             <Container>
-              <Row className="row-grid justify-content-between align-items-center text-left">
-                <Col lg="6" md="6">
-                  <h1 className="text-white">
-                    We keep your coin <br />
-                    <span className="text-white">secured</span>
+              <Row className="row-grid justify-content-between align-items-center text-center">
+                <Col lg="12" md="12">
+                  <h1 id="title-text">
+                    Decentralized Finance (DeFi) <br />
+                    <span>For Everyone</span>
                   </h1>
                   <p className="text-white mb-3">
                     A wonderful serenity has taken possession of my entire soul,
@@ -100,12 +108,14 @@ class LandingPage extends React.Component {
                     whole heart. I am alone, and feel...
                   </p>
                   <div className="btn-wrapper mb-3">
-                    <p className="category text-success d-inline">
-                      From 9.99%/mo
+                    <strong>
+                    <p className="category text-info d-inline">
+                     Learn More
                     </p>
+                    </strong>
                     <Button
                       className="btn-link"
-                      color="success"
+                      color="info"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                       size="sm"
@@ -117,7 +127,7 @@ class LandingPage extends React.Component {
                     <div className="button-container">
                       <Button
                         className="btn-icon btn-simple btn-round mr-1"
-                        color="neutral"
+                        color="primary"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
@@ -142,17 +152,18 @@ class LandingPage extends React.Component {
                     </div>
                   </div>
                 </Col>
-                <Col lg="4" md="5">
+                {/* <Col lg="4" md="5">
                   <img
                     alt="..."
                     className="img-fluid"
                     src={require("assets/img/etherum.png")}
                   />
-                </Col>
+                </Col> */}
               </Row>
             </Container>
           </div>
-          <section className="section section-lg">
+          <DeFiChallenges />
+          {/* <section className="section section-lg">
             <section className="section">
               <img
                 alt="..."
@@ -589,8 +600,9 @@ class LandingPage extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <DemoFooter />
+          </section> */}
+          {/* <DemoFooter /> */}
+          <ThinFooter />
         </div>
       </>
     );
