@@ -37,7 +37,7 @@ class Blogs extends React.Component {
           {/* ********* BLOGS 2 ********* */}
           <div className="section blogs-2" id="blogs-2">
             <Container fluid>
-              <h2 className="title">Our recent writings 2</h2>
+              <h2 className="title-challenges">Our recent writings 2</h2>
               <br />
               <Row>
                 <Col lg="3">

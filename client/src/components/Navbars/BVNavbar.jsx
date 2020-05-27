@@ -82,7 +82,7 @@ class BVNavbar extends React.Component {
                  <span id="logo-text"></span>
               </NavbarBrand>
               <UncontrolledTooltip delay={0} target="tooltip6619950104">
-                Designed and Coded by Creative Tim
+                Designed & Developed by BlockVisors
               </UncontrolledTooltip>
               <button className="navbar-toggler" id="navigation">
                 <span className="navbar-toggler-bar bar1" />
@@ -123,21 +123,15 @@ class BVNavbar extends React.Component {
                 </NavLink>
               </NavItem>
             
-            
-            <NavItem>
-                <NavLink href="https://medium.com/blockfest-group">
-                  Medium
-                </NavLink>
-              </NavItem>
-              
-               
+        
+           
                 <UncontrolledDropdown nav>
                   <DropdownToggle caret color="default" nav>
                     <i
                       aria-hidden={true}
                       className="tim-icons icon-book-bookmark"
                     />
-                    <p>About Us</p>
+                    <p>Challenges</p>
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem to="/about-us" tag={Link}>
@@ -181,7 +175,7 @@ class BVNavbar extends React.Component {
                           aria-hidden={true}
                           className="tim-icons icon-book-bookmark"
                         />
-                        App Pages
+                        Sponsor
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem to="/account-settings" tag={Link}>
@@ -229,7 +223,7 @@ class BVNavbar extends React.Component {
                     size="md"
                     target="_blank"
                   >
-                    <p>Documentation</p>
+                    <p>Change Wallet</p>
                   </Button>
                 </NavItem>
                 {/* <NavItem>

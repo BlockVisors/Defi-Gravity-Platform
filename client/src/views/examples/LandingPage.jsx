@@ -123,11 +123,43 @@ class LandingPage extends React.Component {
                       <i className="tim-icons icon-minimal-right" />
                     </Button>
                   </div>
+                  <div className="btn-wrapper mb-3">
+                    <strong>
+                    <p className="category text-info d-inline">
+                     Create a Challenge
+                    </p>
+                    </strong>
+                    <Button
+                      className="btn-link"
+                      color="info"
+                      href="#pablo"
+                      onClick={e => e.preventDefault()}
+                      size="sm"
+                    >
+                      <i className="tim-icons icon-badge" />
+                    </Button>
+                  </div>
+                  <div className="btn-wrapper mb-3">
+                    <strong>
+                    <p className="category text-info d-inline">
+                     Sponsor a Challenge
+                    </p>
+                    </strong>
+                    <Button
+                      className="btn-link"
+                      color="success"
+                      href="#pablo"
+                      onClick={e => e.preventDefault()}
+                      size="sm"
+                    >
+                      <i className="tim-icons icon-basket-simple" />
+                    </Button>
+                  </div>
                   <div className="btn-wrapper">
                     <div className="button-container">
                       <Button
                         className="btn-icon btn-simple btn-round mr-1"
-                        color="primary"
+                        color="danger"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
@@ -135,19 +167,67 @@ class LandingPage extends React.Component {
                       </Button>
                       <Button
                         className="btn-icon btn-simple btn-round mr-1"
-                        color="neutral"
+                        color="primary"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        <i className="fab fa-dribbble" />
+                        <i className="fab fa-youtube" />
                       </Button>
                       <Button
                         className="btn-icon btn-simple btn-round"
-                        color="neutral"
+                        color="primary"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
                         <i className="fab fa-facebook" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round mr-1"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-medium" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round mr-1"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-telegram" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-github" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round mr-1"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-trello" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round mr-1"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-linkedin" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-simple btn-round"
+                        color="primary"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i className="fab fa-instagram" />
                       </Button>
                     </div>
                   </div>

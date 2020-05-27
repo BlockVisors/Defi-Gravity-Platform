@@ -57,7 +57,7 @@ class DemoFooter extends React.Component {
         <NavbarBrand href="/">DeFi Gravity</NavbarBrand>
         <NavbarToggler />
         <Collapse navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="mr-auto" navbar id="thin">
             <NavItem>
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
@@ -82,7 +82,7 @@ class DemoFooter extends React.Component {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <p>Simple Text</p>
+          <p>Copyright DeFi Gravity</p>
         </Collapse>
       </Navbar>
     </div>
