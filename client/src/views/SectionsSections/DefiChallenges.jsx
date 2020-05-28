@@ -36,17 +36,18 @@ class Blogs extends React.Component {
       
           {/* ********* BLOGS 2 ********* */}
           <div className="section blogs-2" id="blogs-2">
-            <Container fluid>
-              <h2 className="title-challenges">Our recent writings 2</h2>
+            <Container fluid >
+              <hr className="line-info"/>;
+              <h2 className="title-challenges" id="inv-chal">Investor Challenges</h2>
               <br />
               <Row>
                 <Col lg="3">
-                  <Card
+                  <Card 
                     className="card-blog card-background"
                     data-animation="zooming"
                   >
                     <div
-                      className="full-background"
+                      className="full-background" 
                       style={{
                         backgroundImage:
                           "url(" + require("assets/img/steven-roe.jpg") + ")"
@@ -131,215 +132,155 @@ class Blogs extends React.Component {
                   </Card>
                 </Col>
               </Row>
+              <div>
+                <Container id="under-button">
+                <Row>
+                  <Col md="3">
+                  <Button
+                    className="nav-link"
+                    color="primary"
+                    href="https://www.defigravity.org"
+                    size="md"
+                    target="_blank"
+                  >
+                    <p>Create Challenge</p>
+                  </Button>
+                  </Col>
+                  </Row>
+                  </Container>
+              
+              </div>
             </Container>
           </div>
           {/* ********* END BLOGS 2 ********* */}
-          {/* ********* BLOGS 3 ********* */}
-          <div className="section blogs-3">
-            <Container>
+        
+        
+          {/* ********* BLOGS 2 ********* */}
+          <div className="section blogs-2" id="blogs-2">
+            <Container fluid >
+              <hr className="line-info"/>;
+              <h2 className="title-challenges" id="inv-chal">Developer Challenges</h2>
+              <br />
               <Row>
-                <Col className="ml-auto mr-auto" md="10">
-                  <h2 className="title">Latest Blogposts 3</h2>
-                  <br />
-                  <Card className="card-blog card-plain blog-horizontal">
-                    <Row>
-                      <Col lg="4">
-                        <div className="card-image">
-                          <a href="#pablo" onClick={e => e.preventDefault()}>
-                            <img
-                              alt="..."
-                              className="img rounded"
-                              src={require("assets/img/serge-kutuzov.jpg")}
-                            />
-                          </a>
-                        </div>
-                      </Col>
-                      <Col lg="8">
-                        <CardBody>
-                          <CardTitle tag="h3">
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              Rover raised $65 million for pet sitting
-                            </a>
-                          </CardTitle>
-                          <p className="card-description">
-                            Finding temporary housing for your dog should be as
-                            easy as renting an Airbnb. That’s the idea behind
-                            Rover, which raised $65 million to expand its pet
-                            sitting and dog-walking businesses..Finding
-                            temporary housing for your dog should be as easy as
-                            renting an Airbnb. That’s the idea behind Rover,
-                            which raised $65 million to expand its pet sitting
-                            and dog-walking businesses..{" "}
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              Read More
-                            </a>
-                          </p>
-                          <div className="author">
-                            <img
-                              alt="..."
-                              className="avatar img-raised"
-                              src={require("assets/img/julie.jpg")}
-                            />
-                            <div className="text">
-                              <span className="name">Tom Hanks</span>
-                              <div className="meta">Drawn on 23 Jan</div>
-                            </div>
-                          </div>
-                        </CardBody>
-                      </Col>
-                    </Row>
-                  </Card>
-                  <Card className="card-blog card-plain blog-horizontal">
-                    <Row>
-                      <Col lg="4">
-                        <div className="card-image">
-                          <a href="#pablo" onClick={e => e.preventDefault()}>
-                            <img
-                              alt="..."
-                              className="img rounded"
-                              src={require("assets/img/trae-gould.jpg")}
-                            />
-                          </a>
-                        </div>
-                      </Col>
-                      <Col lg="8">
-                        <CardBody>
-                          <CardTitle tag="h3">
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              MateLabs mixes machine learning with IFTTT
-                            </a>
-                          </CardTitle>
-                          <p className="card-description">
-                            If you’ve ever wanted to train a machine learning
-                            model and integrate it with IFTTT, you now can with
-                            a new offering from MateLabs. MateVerse, a platform
-                            where novices can spin out machine...If you’ve ever
-                            wanted to train a machine learning model and
-                            integrate it with IFTTT, you now can with a new
-                            offering from MateLabs. MateVerse, a platform where
-                            novices can spin out machine...{" "}
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              Read More
-                            </a>
-                          </p>
-                          <div className="author">
-                            <img
-                              alt="..."
-                              className="avatar img-raised"
-                              src={require("assets/img/james.jpg")}
-                            />
-                            <div className="text">
-                              <span className="name">Tom Hanks</span>
-                              <div className="meta">Drawn on 23 Jan</div>
-                            </div>
-                          </div>
-                        </CardBody>
-                      </Col>
-                    </Row>
-                  </Card>
-                  <Card className="card-blog card-plain blog-horizontal">
-                    <Row>
-                      <Col lg="4">
-                        <div className="card-image">
-                          <a href="#pablo" onClick={e => e.preventDefault()}>
-                            <img
-                              alt="..."
-                              className="img rounded"
-                              src={require("assets/img/mark-harrison.jpg")}
-                            />
-                          </a>
-                        </div>
-                      </Col>
-                      <Col lg="8">
-                        <CardBody>
-                          <CardTitle tag="h3">
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              US venture investment ticks up in Q2 2017
-                            </a>
-                          </CardTitle>
-                          <p className="card-description">
-                            Venture investment in U.S. startups rose
-                            sequentially in the second quarter of 2017, boosted
-                            by large, late-stage financings and a few outsized
-                            early-stage rounds in tech and healthcare..enture
-                            investment in U.S. startups rose sequentially in the
-                            second quarter of 2017, boosted by large, late-stage
-                            financings and a few outsized early-stage rounds in
-                            tech and healthcare..{" "}
-                            <a href="#pablo" onClick={e => e.preventDefault()}>
-                              Read More
-                            </a>
-                          </p>
-                          <div className="author">
-                            <img
-                              alt="..."
-                              className="avatar img-raised"
-                              src={require("assets/img/michael.jpg")}
-                            />
-                            <div className="text">
-                              <span className="name">Tom Hanks</span>
-                              <div className="meta">Drawn on 23 Jan</div>
-                            </div>
-                          </div>
-                        </CardBody>
-                      </Col>
-                    </Row>
+                <Col lg="3">
+                  <Card 
+                    className="card-blog card-background"
+                    data-animation="zooming"
+                  >
+                    <div
+                      className="full-background" 
+                      style={{
+                        backgroundImage:
+                          "url(" + require("assets/img/steven-roe.jpg") + ")"
+                      }}
+                    />
+                    <CardBody>
+                      <div className="content-bottom">
+                        <h6 className="card-category">Research Byte</h6>
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                          <CardTitle tag="h3">AI at the Edge</CardTitle>
+                        </a>
+                      </div>
+                    </CardBody>
                   </Card>
                 </Col>
-              </Row>
-            </Container>
-          </div>
-         
-          {/* ********* BLOGS 6 ********* */}
-          <div className="blogs-6">
-            <Container>
-              <h2 className="title">Latest Blogposts 6</h2>
-              <Row>
-                <Col className="ml-auto mr-auto" lg="10">
-                  <Card className="card-blog card-background card-grande">
+                <Col lg="3">
+                  <Card
+                    className="card-blog card-background"
+                    data-animation="zooming"
+                  >
                     <div
                       className="full-background"
                       style={{
                         backgroundImage:
-                          "url(" + require("assets/img/ben-konfrst.jpg") + ")"
+                          "url(" + require("assets/img/noah-wetering.jpg") + ")"
                       }}
                     />
                     <CardBody>
-                      <div className="author">
-                        <img
-                          alt="..."
-                          className="avatar img-raised"
-                          src={require("assets/img/olivia.jpg")}
-                        />
-                        <span className="text-white ml-1">by Johanna Zmud</span>
+                      <div className="content-bottom">
+                        <h6 className="card-category">Data Virtualization</h6>
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                          <CardTitle tag="h3">
+                            A Spectrum of Approaches
+                          </CardTitle>
+                        </a>
                       </div>
-                      <a href="#pablo" onClick={e => e.preventDefault()}>
-                        <CardTitle tag="h2">Miami Vice</CardTitle>
-                      </a>
-                      <h4 className="card-description">
-                        The simplest visual description uses ordinary words to
-                        convey what the writer sees. First he or she must look
-                        at the subject – slowly, carefully, and repeatedly, if
-                        possible – to identify the parts that make the whole
-                      </h4>
-                      <Button
-                        color="primary"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        Read more...
-                      </Button>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col lg="3">
+                  <Card
+                    className="card-blog card-background"
+                    data-animation="zooming"
+                  >
+                    <div
+                      className="full-background"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("assets/img/matthew-henry.jpg") + ")"
+                      }}
+                    />
+                    <CardBody>
+                      <div className="content-bottom">
+                        <h6 className="card-category">New Challenges</h6>
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                          <CardTitle tag="h3">Touch on a trend</CardTitle>
+                        </a>
+                      </div>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col lg="3">
+                  <Card
+                    className="card-blog card-background"
+                    data-animation="zooming"
+                  >
+                    <div
+                      className="full-background"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("assets/img/waranont.jpg") + ")"
+                      }}
+                    />
+                    <CardBody>
+                      <div className="content-bottom">
+                        <h6 className="card-category">Driverless Future</h6>
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                          <CardTitle tag="h3">Self-Driving Cars</CardTitle>
+                        </a>
+                      </div>
                     </CardBody>
                   </Card>
                 </Col>
               </Row>
+              <div>
+                <Container id="under-button">
+                <Row>
+                  <Col md="3">
+                  <Button
+                    className="nav-link"
+                    color="primary"
+                    href="https://www.defigravity.org"
+                    size="md"
+                    target="_blank"
+                  >
+                    <p>Create Challenge</p>
+                  </Button>
+                  </Col>
+                  </Row>
+                  </Container>
+              
+              </div>
             </Container>
           </div>
-          {/* ********* END BLOGS 6 ********* */}
+          {/* ********* END BLOGS 2 ********* */}
+        
+                    
           {/* ********* BLOGS 7 ********* */}
-          <div className="blogs-7">
+          {/* <div className="blogs-7">
             <Container>
-              <h2 className="title">Latest Blogposts 7</h2>
+              <hr className="line-info"/>
+              <h2 className="inv-challenges" id="dev-chal">Developer Challenges</h2>
               <Row>
                 <Col md="7">
                   <Card className="card-blog card-background">
@@ -459,8 +400,39 @@ class Blogs extends React.Component {
                   </Card>
                 </Col>
               </Row>
+
+              <div>
+                <Container id="under-button">
+                <Row>
+                  <Col md="4">
+                  <Button
+                    className="nav-link"
+                    color="primary"
+                    href="https://www.defigravity.org"
+                    size="md"
+                    target="_blank"
+                  >
+                    <p>Create Developer Challenge</p>
+                  </Button>
+                  </Col>
+                  </Row>
+                  </Container>
+              </div>
             </Container>
-          </div>
+            <Container>
+            <Row>
+                <Col className="ml-auto mr-auto text-center mt-4" md="8">
+                  <h3 className="title">Interested in Listing Your Project or Sponsoring a Challenge?</h3>
+                  <h4 className="description mb-5">
+                    Contact Us to developer commpany sponsored challenges and bounties targeting user acquistion or developer adoption.
+                  </h4>
+                  <Button color="success" size="lg">
+                    Contact us
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          </div> */}
           {/* ********* END BLOGS 7 ********* */}
         </div>{" "}
       </>

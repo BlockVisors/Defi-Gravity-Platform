@@ -51,9 +51,9 @@ class DemoFooter extends React.Component {
     return (
       <>
         {/* <footer className="footer"> */}
-          <Container>
-          <div>
-      <Navbar color="light" light expand="md">
+          <div id="footer-thin">
+      <Container>
+      <Navbar color="transparent" light expand="md">
         <NavbarBrand href="/">DeFi Gravity</NavbarBrand>
         <NavbarToggler />
         <Collapse navbar>
@@ -82,9 +82,10 @@ class DemoFooter extends React.Component {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <p>Copyright DeFi Gravity</p>
+          <p id="copyright">Copyright DeFi Gravity</p>
         </Collapse>
       </Navbar>
+      </Container>
     </div>
             {/* <Row>
               <Col md="3">
@@ -193,7 +194,6 @@ class DemoFooter extends React.Component {
               </Col>
             </Row>  */}
   
-          </Container>
         {/* </footer> */}
       </>
     );

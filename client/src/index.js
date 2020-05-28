@@ -92,7 +92,7 @@ portis.showPortis();
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" render={props => <Index {...props} />} />
+      <Route path="/index" render={props => <LandingPage {...props} />} />
       <Route path="/typeforms" render={props => <Typeforms {...props} />} />
       <Route
         path="/presentation"

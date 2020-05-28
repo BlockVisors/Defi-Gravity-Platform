@@ -106,22 +106,8 @@ class BVNavbar extends React.Component {
                 </Row>
               </div>
               <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/how-we-work">
-                  How We Work
-                </NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink href="#bv-services">
-                  Services
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#projects">
-                  Projects
-                </NavLink>
-              </NavItem>
+            
+        
             
         
            
@@ -212,7 +198,7 @@ class BVNavbar extends React.Component {
                 </UncontrolledDropdown>
                 <NavItem>
                 <NavLink href="https://medium.com/blockfest-group">
-                  Education
+                  Sponsor
                 </NavLink>
               </NavItem>
                 <NavItem>

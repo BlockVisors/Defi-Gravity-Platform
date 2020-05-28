@@ -1550,9 +1550,13 @@
 }
 
 #title-text {
-  font-size: 72px;
+  padding-top: 60px;
+  font-size: 60px;
   font-family: Avenir;
   color: #666666;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
 }
 #title-challenges {
   color: #666666;
@@ -1560,4 +1564,34 @@
 
 #thin {
   font-size: 11px;
+}
+
+#blogs-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  padding-top: 30px;
+}
+#dev-chal {
+  color: #666666;
+}
+#inv-chal {
+  color: #666666;
+}
+#under-button  {
+  padding-top: 30px;
+}
+#half-card {
+  max-height: 260px;
+}
+
+#copyright {
+  font-size: 8px;
+}
+#footer-thin  {
+  border-top: 2px solid rgb(20, 124, 194);
+  padding-bottom: 20px;
+
 }

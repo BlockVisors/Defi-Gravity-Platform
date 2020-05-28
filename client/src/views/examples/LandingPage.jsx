@@ -103,19 +103,17 @@ class LandingPage extends React.Component {
                     <span>For Everyone</span>
                   </h1>
                   <p className="text-white mb-3">
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring which I enjoy with my
-                    whole heart. I am alone, and feel...
+                    Complete a Challenge below to earn XDEFI tokens
                   </p>
                   <div className="btn-wrapper mb-3">
                     <strong>
-                    <p className="category text-info d-inline">
+                    <h5 className="category text-info d-inline">
                      Learn More
-                    </p>
+                    </h5>
                     </strong>
                     <Button
                       className="btn-link"
-                      color="info"
+                      color="primary"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                       size="sm"
@@ -125,13 +123,13 @@ class LandingPage extends React.Component {
                   </div>
                   <div className="btn-wrapper mb-3">
                     <strong>
-                    <p className="category text-info d-inline">
+                    <h5 className="category text-info d-inline">
                      Create a Challenge
-                    </p>
+                    </h5>
                     </strong>
                     <Button
                       className="btn-link"
-                      color="info"
+                      color="primary"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                       size="sm"
@@ -141,13 +139,13 @@ class LandingPage extends React.Component {
                   </div>
                   <div className="btn-wrapper mb-3">
                     <strong>
-                    <p className="category text-info d-inline">
+                    <h5 className="category text-info d-inline">
                      Sponsor a Challenge
-                    </p>
+                    </h5>
                     </strong>
                     <Button
                       className="btn-link"
-                      color="success"
+                      color="primary"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                       size="sm"
@@ -159,7 +157,7 @@ class LandingPage extends React.Component {
                     <div className="button-container">
                       <Button
                         className="btn-icon btn-simple btn-round mr-1"
-                        color="danger"
+                        color="primary"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
