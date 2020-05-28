@@ -177,7 +177,7 @@ class Blogs extends React.Component {
                     <CardBody>
                       <div className="content-bottom">
                         <h6 className="card-category">Research Byte</h6>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="/pricing" onClick={e => e.preventDefault()}>
                           <CardTitle tag="h3">AI at the Edge</CardTitle>
                         </a>
                       </div>

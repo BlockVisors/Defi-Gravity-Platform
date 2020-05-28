@@ -17,7 +17,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { ReactTypeformEmbed } from 'react-typeform-embed';
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect, useHistory } from "react-router-dom";
 
 // styles
 import "assets/css/nucleo-icons.css";

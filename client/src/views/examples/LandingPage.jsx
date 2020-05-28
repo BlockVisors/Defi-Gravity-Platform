@@ -98,13 +98,13 @@ class LandingPage extends React.Component {
             <Container>
               <Row className="row-grid justify-content-between align-items-center text-center">
                 <Col lg="12" md="12">
-                  <h1 id="title-text">
+                  <h1 id="title-white">
                     Decentralized Finance (DeFi) <br />
                     <span>For Everyone</span>
                   </h1>
-                  <p className="text-white mb-3">
+                  <h4 className="text-white mb-3">
                     Complete a Challenge below to earn XDEFI tokens
-                  </p>
+                  </h4>
                   <div className="btn-wrapper mb-3">
                     <strong>
                     <h5 className="category text-info d-inline">

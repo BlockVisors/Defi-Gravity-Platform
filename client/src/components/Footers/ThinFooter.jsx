@@ -59,7 +59,7 @@ class DemoFooter extends React.Component {
         <Collapse navbar>
           <Nav className="mr-auto" navbar id="thin">
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">XDEFI Tracker</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
@@ -81,8 +81,11 @@ class DemoFooter extends React.Component {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/components/">Contact</NavLink>
+            </NavItem>
           </Nav>
-          <p id="copyright">Copyright DeFi Gravity</p>
+          <p id="copyright">© DeFi Gravity, 2020</p>
         </Collapse>
       </Navbar>
       </Container>

@@ -73,7 +73,7 @@ class BVNavbar extends React.Component {
             <div className="navbar-translate">
               <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <img
-              src={require("assets/img/DefiGravityLogoGreen.png")}
+              src={require("assets/img/DefiLogoGray.png")}
               width="184"
               height="56"
               className="d-inline-block align-middle"
@@ -108,7 +108,77 @@ class BVNavbar extends React.Component {
               <Nav className="ml-auto" navbar>
             
         
-            
+              <UncontrolledDropdown nav>
+                  <DropdownToggle caret color="default" nav>
+                    <i
+                      aria-hidden={true}
+                      className="tim-icons icon-book-bookmark"
+                    />
+                    <p>XDEFI</p>
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem to="/about-us" tag={Link}>
+                      <i className="tim-icons icon-bulb-63" />
+                      About
+                    </DropdownItem>
+                    <DropdownItem to="/blog-post" tag={Link}>
+                      <i className="tim-icons icon-align-center" />
+                      Buy Token
+                    </DropdownItem>
+                    <DropdownItem to="/blog-posts" tag={Link}>
+                      <i className="tim-icons icon-chart-bar-32" />
+                      Exchanges
+                    </DropdownItem>
+                    
+                   
+                    <UncontrolledDropdown>
+                      <DropdownToggle
+                        caret
+                        color="default"
+                        className="dropdown-item"
+                        tag="a"
+                        href="#pablo"
+                        onClick={e => e.preventDefault()}
+                      >
+                        <i
+                          aria-hidden={true}
+                          className="tim-icons icon-book-bookmark"
+                        />
+                        Donate
+                      </DropdownToggle>
+                      <DropdownMenu>
+                        <DropdownItem to="/account-settings" tag={Link}>
+                          <i className="tim-icons icon-lock-circle" />
+                          Account Settings
+                        </DropdownItem>
+                        <DropdownItem to="/login-page" tag={Link}>
+                          <i className="tim-icons icon-tablet-2" />
+                          Login Page
+                        </DropdownItem>
+                        <DropdownItem to="/register-page" tag={Link}>
+                          <i className="tim-icons icon-laptop" />
+                          Register Page
+                        </DropdownItem>
+                        <DropdownItem to="/reset-page" tag={Link}>
+                          <i className="tim-icons icon-molecule-40" />
+                          Reset Page
+                        </DropdownItem>
+                        <DropdownItem to="/invoice-page" tag={Link}>
+                          <i className="tim-icons icon-notes" />
+                          Invoice Page
+                        </DropdownItem>
+                        <DropdownItem to="/checkout-page" tag={Link}>
+                          <i className="tim-icons icon-basket-simple" />
+                          Checkout Page
+                        </DropdownItem>
+                        <DropdownItem to="/chat-page" tag={Link}>
+                          <i className="tim-icons icon-email-85" />
+                          Chat Page
+                        </DropdownItem>
+                      </DropdownMenu>
+                    </UncontrolledDropdown>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
         
            
                 <UncontrolledDropdown nav>
